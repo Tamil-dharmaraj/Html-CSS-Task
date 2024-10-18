@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container{
+    margin: 10px;
+    display: flex;
+flex-basis: 20px;
+flex-wrap: wrap;
+gap: 10px;
+justify-content: space-between;
+}
+.container div{
+    flex-basis: 20%;
+    justify-content: space-between;
+}
+.one{
+    background-color: blue;
+    height: 100px;
+}
+.Two{
+    background-color: red;
+    height: 100px;
+}
+.Three{
+    background-color: yellow;
+    height: 100px;
+}
+.Four{
+    background-color: violet;
+    height: 100px;
+}
+@media screen and (max-width:600px) {
+    .container div{
+        flex-basis: 40%;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}
+@media screen and (max-width:600px) {
+    .container div{
+        flex-basis: 100%;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="one"></div>
+       <div class="Two"></div>
+       <div class="Three"></div>
+       <div class="Four"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    
+}
+.container div{
+   display: flex;
+margin: 5px;
+padding: 5px;
+width: 200px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}

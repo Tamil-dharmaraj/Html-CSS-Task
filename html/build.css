@@ -1,0 +1,109 @@
+/* .content{
+  position: relative;
+}
+h2{
+    position: absolute;
+    text-align: center;
+    top: 25%;
+
+} */
+
+/* .main{
+    position: absolute;
+} */
+/* .section-1 {
+  position: relative;
+}
+.section-2 {
+  position: absolute;
+  top: 0%;
+  left: 45%;
+  background-color: black;
+  color: aliceblue;
+  /* width: 300px; */
+  /* text-align: center; */
+  /* height: 110px; */
+/* }
+.image {
+  width: 300px;
+  height: 110px;
+}
+.image2 {
+  position: absolute;
+} */ 
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  background-color: black;
+  height: 100%;
+}
+#front{
+  background-image:url(body.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  
+  /* margin-top: 100px; */
+}
+#pricing{
+ 
+  background-color: yellow;
+  
+}
+.build{
+  font-size: 50px;
+  font-style: italic;
+  color: black;
+  left: 45%;
+
+}
+#contact{
+  /* background-image: url(bottom.jpg); */
+  background-repeat: no-repeat;
+  background-color: black;
+  /* background-size: 100% 100%; */
+  /* height: 100VH; */
+}
+img{
+  /* background-color: black; */
+  
+  width: 1100px;
+  height: 500px;
+}
+.head{
+  color: rgb(255, 255, 255);
+  margin-top: 50px;
+ 
+  text-align: center;
+  height: 90px;
+  font-size: 50px;
+  width: 100%;
+  margin-top: 50px;
+  /* z-index: -1; */
+}
+.lorem{
+  line-height: 35px;
+}
+.para{
+  color: yellow;
+  font-style:oblique;
+  font-size: 45px;
+  left: 10%;
+}
+.para2{
+  color: yellow;
+  font-size: 19px;
+  font-style: italic;
+}
+.svg{
+  color: yellow;
+  display: flex;
+  gap: 40px;
+  margin-left: 1000px;
+  /* margin-bottom: 30px; */
+  /* justify-content: space-evenly; */
+}
