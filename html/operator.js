@@ -27,3 +27,6 @@ console.log('a>b&&c==d:'+(a>b&&c==d));
 console.log('a<b&&c==d:'+(a<b&&c==d));
 console.log('!(a>b):'+!a>b);
 //Ternary operator
+const ternary =2<1 ? "true":"false"
+//condition?exp1:exp2
+console.log(ternary);
