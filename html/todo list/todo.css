@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    background-color: aliceblue;
+    font-family: 'popins' sans-serif;
+
+}
+.todo-container{
+        border-radius: 5px;
+        border: 2px solid rgb(0, 0, 0) ;
+        margin-top:150px;
+       justify-content: center;
+        width: 400px;
+        margin: 260px;
+        margin-left: 745px;
+        background-color: rgb(203, 125, 125);
+}
+h1{
+    letter-spacing: 2px;
+    
+}
+input{
+    height: 2.2em;
+    width: 250px;
+}
+button{
+    height: 2.4em;
+    font-size: 15px;
+}
